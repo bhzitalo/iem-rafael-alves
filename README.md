@@ -18,7 +18,7 @@ Esse repositorio foi criado para armazenar atividades avaliativas solicitadas pe
 )
 ### 4. Criar um documento de Análise de Requisitos
 
-[Ver análise](docs/requisitos-iem.md)
+[Ver análise](/site-iem/)
 
 ### 5. O Projeto deve ser trocado pelo projeto de outro grupo para ser corrigido. Gerar relatórios de erros e correções
 
