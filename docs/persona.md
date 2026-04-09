@@ -1,6 +1,6 @@
 # 👤 Persona do Projeto
 
-<img src="./images/persona.png" alt="Persona Lucas" width="200"/>
+<img src="persona.png" alt="Persona Lucas" width="200">
 
 📌 **Nome:** Lucas Oliveira<br>
 📅 **Idade:** 17 anos<br>
