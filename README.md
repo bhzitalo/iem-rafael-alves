@@ -1,23 +1,25 @@
-# 📚 Atividade Avaliativa - Desenvolvimento Web
+# 📄 Atividades Avaliativas
 
-Este projeto foi desenvolvido como atividade avaliativa da disciplina de Desenvolvimento Web.
+Esse repositorio foi criado para armazenar atividades avaliativas solicitadas pelo professor [Wanderley](https://github.com/wanderleylb) durante as aulas de Administração de Websites no curso de Análise e Desenvolvimento de Sistemas.
 
-## 📌 Sobre
+## Atividades
 
-A atividade envolveu:
+### 1. Analisar um site qualquer, identificando problemas e boas práticas de gestão de conteúdo
 
-- Análise de um site (problemas e soluções)
-- Criação de um site em HTML com erros propositais
-- Definição de uma persona
-- Elaboração de análise de requisitos
-- Correção de um projeto de outro grupo
-- Aplicação de melhorias (SEO e pirâmide invertida)
+[Ver analise](docs/analise-ui-ux.md)
 
-## 🛠️ Tecnologias
+### 2. Crie um site com problemas. Cada grupo deverá criar um pequeno site em HTML com 3 ou 4 páginas
 
-- HTML5
-- CSS3
+[Ver o site criado](https://iem-rafaelalves.netlify.app/)
 
-## ⚠️ Observação
+### 3. Criar a Persona relacionada ao projeto criado
 
-O site contém erros intencionais para fins de análise e correção.
+[Ver persona](docs/persona.md
+)
+### 4. Criar um documento de Análise de Requisitos
+
+[Ver análise](docs/requisitos-iem.md)
+
+### 5. O Projeto deve ser trocado pelo projeto de outro grupo para ser corrigido. Gerar relatórios de erros e correções
+
+### 6. Acrescentar no  sistema recebido: melhorias no título, meta descrição, utilizar a técnica de pirâmide invertida no conteúdo
