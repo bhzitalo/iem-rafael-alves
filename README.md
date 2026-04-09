@@ -10,7 +10,7 @@ Esse repositorio foi criado para armazenar atividades avaliativas solicitadas pe
 
 ### 2. Crie um site com problemas. Cada grupo deverá criar um pequeno site em HTML com 3 ou 4 páginas
 
-[Ver o site criado](https://iem-rafaelalves.netlify.app/)
+[Ver o site criado](/site-iem/)
 
 ### 3. Criar a Persona relacionada ao projeto criado
 
