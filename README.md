@@ -18,8 +18,13 @@ Esse repositorio foi criado para armazenar atividades avaliativas solicitadas pe
 )
 ### 4. Criar um documento de Análise de Requisitos
 
-[Ver análise](/site-iem/)
+[Ver análise de requisitos](/site-iem/)
 
 ### 5. O Projeto deve ser trocado pelo projeto de outro grupo para ser corrigido. Gerar relatórios de erros e correções
-
+Site analisado → Ladog Petshop <br>
+[Ver relatório de análise de projeto](/docs/analise-ladog.md
+)
 ### 6. Acrescentar no  sistema recebido: melhorias no título, meta descrição, utilizar a técnica de pirâmide invertida no conteúdo
+
+Site analisado → Ladog Petshop <br>
+[Ver melhorias sugeridas](docs/melhorias-ladog.md)
