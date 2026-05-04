@@ -71,7 +71,3 @@ Cursos --> "*" Curso : exibe
 Professor --> "*" Curso : ministra
 
 Contato --> Visitante : fornece dados
-````
-
-```
-```
