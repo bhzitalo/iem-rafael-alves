@@ -1,4 +1,3 @@
-````md id="umlclass02"
 # 📊 Diagrama UML (Classes) - Baseado nos Casos de Uso
 
 ## 📌 Descrição
@@ -79,5 +78,4 @@ Professor --> "*" Curso : ministra
 Contato --> Visitante : recebe dados
 ````
 
-```
 ```
