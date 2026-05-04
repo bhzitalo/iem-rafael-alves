@@ -1,37 +1,83 @@
-````md
-# 🎭 Diagrama de Casos de Uso - Sistema do Professor Rafael Alves
+````md id="umlclass02"
+# 📊 Diagrama UML (Classes) - Baseado nos Casos de Uso
 
 ## 📌 Descrição
-Este diagrama representa as interações entre os usuários e o sistema do site institucional do professor de música.
-
-## 👤 Atores
-
-- Visitante (usuário do site)
-
-## 🎯 Casos de Uso
-
-- Visualizar página inicial  
-- Visualizar página sobre  
-- Visualizar cursos  
-- Entrar em contato  
-- Navegar pelo menu  
+Este diagrama de classes representa a estrutura do sistema com base nas ações do usuário (Visitante), conforme definido no diagrama de casos de uso.
 
 ## 🧩 Diagrama (Mermaid)
 
 ```mermaid
-usecaseDiagram
+classDiagram
 
-actor Visitante
+class Visitante {
+  +visualizarPaginaInicial()
+  +visualizarSobre()
+  +visualizarCursos()
+  +entrarEmContato()
+  +navegarMenu()
+}
 
-Visitante --> (Visualizar Página Inicial)
-Visitante --> (Visualizar Página Sobre)
-Visitante --> (Visualizar Cursos)
-Visitante --> (Entrar em Contato)
-Visitante --> (Navegar pelo Menu)
+class Site {
+  -nome: string
+  -url: string
+  +carregarPagina()
+}
 
-(Navegar pelo Menu) ..> (Visualizar Página Inicial) : <<include>>
-(Navegar pelo Menu) ..> (Visualizar Página Sobre) : <<include>>
-(Navegar pelo Menu) ..> (Visualizar Cursos) : <<include>>
-(Navegar pelo Menu) ..> (Entrar em Contato) : <<include>>
+class Menu {
+  +exibirMenu()
+  +redirecionar()
+}
 
+class Pagina {
+  -titulo: string
+  -conteudo: string
+  +renderizar()
+}
+
+class Home {
+  +mostrarApresentacao()
+}
+
+class Sobre {
+  +mostrarInformacoes()
+}
+
+class Cursos {
+  +listarCursos()
+}
+
+class Contato {
+  +exibirFormulario()
+  +enviarMensagem()
+}
+
+class Curso {
+  -nome: string
+  -descricao: string
+  -nivel: string
+}
+
+class Professor {
+  -nome: string
+  -especialidade: string
+  -experiencia: string
+}
+
+Visitante --> Menu : utiliza
+Visitante --> Site : acessa
+
+Site "1" --> "*" Pagina : contém
+
+Pagina <|-- Home
+Pagina <|-- Sobre
+Pagina <|-- Cursos
+Pagina <|-- Contato
+
+Cursos --> "*" Curso : exibe
+Professor --> "*" Curso : ministra
+
+Contato --> Visitante : recebe dados
+````
+
+```
 ```
