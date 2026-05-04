@@ -1,25 +1,14 @@
-# 📊 Diagrama UML (Classes)
+# 📊 Diagrama UML - Sistema do Professor Rafael Alves
+
+## 🧩 Diagrama de Classes
 
 ```mermaid
 classDiagram
-
-class Visitante {
-  +visualizarPaginaInicial()
-  +visualizarSobre()
-  +visualizarCursos()
-  +entrarEmContato()
-  +navegarMenu()
-}
 
 class Site {
   -nome: string
   -url: string
   +carregarPagina()
-}
-
-class Menu {
-  +exibirMenu()
-  +redirecionar()
 }
 
 class Pagina {
@@ -29,20 +18,20 @@ class Pagina {
 }
 
 class Home {
-  +mostrarApresentacao()
+  -destaque: string
 }
 
 class Sobre {
-  +mostrarInformacoes()
+  -bio: string
 }
 
 class Cursos {
-  +listarCursos()
+  -lista: Curso[]
 }
 
 class Contato {
-  +exibirFormulario()
-  +enviarMensagem()
+  -email: string
+  -telefone: string
 }
 
 class Curso {
@@ -57,9 +46,6 @@ class Professor {
   -experiencia: string
 }
 
-Visitante --> Menu : utiliza
-Visitante --> Site : acessa
-
 Site "1" --> "*" Pagina : contém
 
 Pagina <|-- Home
@@ -67,8 +53,7 @@ Pagina <|-- Sobre
 Pagina <|-- Cursos
 Pagina <|-- Contato
 
-Cursos --> "*" Curso : exibe
-Professor --> "*" Curso : ministra
+Cursos "1" --> "*" Curso : lista
 
-Contato --> Visitante : fornece dados
+Professor "1" --> "*" Curso : ministra
 ```
