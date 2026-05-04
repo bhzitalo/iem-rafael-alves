@@ -1,4 +1,3 @@
-````md
 # 📊 Diagrama UML - Sistema do Professor Rafael Alves
 
 ## 🧩 Diagrama de Classes
