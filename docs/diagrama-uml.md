@@ -1,9 +1,4 @@
-# 📊 Diagrama UML (Classes) - Baseado nos Casos de Uso
-
-## 📌 Descrição
-Este diagrama de classes representa a estrutura do sistema com base nas ações do usuário (Visitante), conforme definido no diagrama de casos de uso.
-
-## 🧩 Diagrama (Mermaid)
+# 📊 Diagrama UML (Classes)
 
 ```mermaid
 classDiagram
@@ -75,5 +70,5 @@ Pagina <|-- Contato
 Cursos --> "*" Curso : exibe
 Professor --> "*" Curso : ministra
 
-Contato --> Visitante : recebe dados
-```
+Contato --> Visitante : fornece dados
+````
